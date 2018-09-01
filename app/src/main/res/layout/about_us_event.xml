@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape"
+        android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/finallogo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+    <TextView
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:autoText="true"
+        android:text="Geet is unlimited free access to all your\nGarwali Kumauni  Jonsari and Latest regional songs  music  wherever you go.Find your favorite Garwali Kumauni and Jonsari songs Geet delivers the perfect music to suit your mood."
+        android:layout_height="100dp"
+        android:layout_width="match_parent"/>
+        <!--<TextView
+            android:text="Vinod Thapliyal"
+            android:textColor="#fff"
+            android:gravity="end"
+            android:textSize="18sp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="Founder "
+            android:textColor="#fff"
+            android:gravity="end"
+            android:textSize="18sp"
+            android:layout_marginRight="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+-->        <TextView
+            android:text="1/45, Lalita Park, Vikas Marg, Laxmi Nagar "
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:text="New Delhi 110092"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+        <TextView
+            android:id="@+id/geet_phone"
+            android:text="Phone no:9810005126"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+        <TextView
+            android:text="http://www.geetdigital.com/"
+            android:gravity="center"
+            android:id="@+id/geet"
+            android:textColor="#fff"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+        <TextView
+            android:text="http://www.rachnamedia.com/"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:id="@+id/rachnamedia"
+            android:clickable="true"
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+        <TextView
+            android:id="@+id/geet_email"
+            android:text="E-mail :geetdigital@gmail.com"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="26dp" />
+
+        <TextView
+            android:text="Vinod Thapliyal"
+            android:textColor="#fff"
+            android:gravity="end"
+            android:textSize="18sp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="Founder "
+            android:textColor="#fff"
+            android:gravity="end"
+            android:textSize="18sp"
+            android:layout_marginRight="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

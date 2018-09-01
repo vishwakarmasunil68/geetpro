@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+
+    xmlns:circleprogress="http://schemas.android.com/tools">
+
+
+
+    <LinearLayout
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/detaile_cover_image"
+            android:background="#fff"
+
+            android:layout_width="match_parent"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+<LinearLayout
+  android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/shape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:text="Event Name"
+            android:layout_width="115dp"
+            android:textColor="#fff"
+            android:gravity="center_vertical"
+            android:autoText="true"
+            android:layout_height="40dp"/>
+        <TextView android:id="@+id/txt_EventName_is"
+            android:text=""
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:autoText="true"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:text="Start Date"
+            android:textColor="#fff"
+            android:layout_width="115dp"
+            android:gravity="center_vertical"
+            android:autoText="true"
+            android:layout_height="40dp"/>
+        <TextView android:id="@+id/txt_StartDate_is"
+            android:text=""
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:autoText="true"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:text="Singer Name"
+            android:layout_width="115dp"
+            android:gravity="center_vertical"
+            android:textColor="#fff"
+            android:autoText="true"
+            android:layout_height="40dp"/>
+        <TextView android:id="@+id/txt_Singer_Name_is"
+            android:text=""
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:autoText="true"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:text="Locaton"
+            android:layout_width="115dp"
+            android:gravity="center_vertical"
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:autoText="true"
+            android:layout_height="40dp"/>
+        <TextView android:id="@+id/txt_Location_is"
+            android:text=""
+            android:textColor="#fff"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:autoText="true"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:text="Strat Time"
+            android:layout_width="115dp"
+            android:gravity="center_vertical"
+            android:autoText="true"
+            android:textColor="#fff"
+            android:layout_height="40dp"/>
+        <TextView android:id="@+id/txt_Start_time_is"
+            android:text=""
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:autoText="true"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <TextView
+            android:text="organization"
+            android:layout_width="120dp"
+            android:textColor="#fff"
+            android:gravity="center_vertical"
+            android:autoText="true"
+            android:layout_height="40dp"/>
+        <TextView android:id="@+id/txt_Orgnigation_is"
+            android:text=""
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:gravity="center_vertical"
+            android:autoText="true"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+    <Button android:id="@+id/bt_location"
+       android:gravity="center"
+        android:text="See Location"
+
+        android:textColor="#fff"
+        android:background="@drawable/shape"
+       android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+</LinearLayout>
+
+
+
+    <!--<ListView android:id="@+id/detailes_list"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="400dp"-->
+        <!--/>-->
+
+
+</LinearLayout>

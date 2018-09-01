@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_album"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="2dp">
+
+    <ImageView
+        android:id="@+id/iv_album"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/hindi" />
+
+    <TextView
+        android:id="@+id/tv_album"
+        android:layout_width="120dp"
+        android:layout_height="22dp"
+        android:height="22dp"
+        android:layout_marginTop="2dp"
+        android:background="#FFAF0516"
+        android:gravity="center"
+        android:maxLength="1000"
+        android:singleLine="true"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+</LinearLayout>

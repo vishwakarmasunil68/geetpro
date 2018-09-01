@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFED060A"
+        android:gravity="center"
+        android:text="Songs"
+        android:textColor="#fff"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFED060A"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/share_arraysong"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/share"
+            android:gravity="center" />
+
+        <ImageView
+            android:id="@+id/Album_image_baner"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/downloadallsongs"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/download_white"
+            android:gravity="center"
+            android:visibility="gone" />
+    </LinearLayout>
+    <!--    <ImageView
+            android:id="@+id/Album_image_baner"
+            android:layout_width="match_parent"
+            android:layout_height="160dp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/album_songs_cover"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:text="Albums"-->
+    <!--android:background="#FFED060A"-->
+    <!--android:gravity="center"-->
+    <!--android:textColor="#fff"-->
+    <!--android:textSize="22sp"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="55sp" />-->
+
+
+    <ListView
+        android:id="@+id/album_songs_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="#FFED060A"
+        android:divider="#fff"
+        android:dividerHeight="1.0sp"
+        android:listSelector="@android:color/transparent" />
+
+</LinearLayout>

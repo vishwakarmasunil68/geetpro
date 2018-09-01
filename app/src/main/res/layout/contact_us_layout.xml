@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/shape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <!--  <LinearLayout
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="250dp">
+    <ImageView
+        android:id="@+id/detaile_cover_image"
+        android:background="@drawable/finallogo"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    </LinearLayout>
+-->
+    <ListView
+        android:layout_above="@+id/music_linear"
+        android:id="@+id/mymusic_songlist"
+        android:background="#FFED060A"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:divider="#fff"
+        android:dividerHeight="1.0sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:listSelector="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/music_linear"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="6dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:background="#FFEF0404">
+
+        <LinearLayout
+            android:id="@+id/linear_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:background="#ffff00"
+            android:visibility="gone">
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminate="false"
+            android:visibility="gone"
+            />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_time"
+            android:layout_below="@+id/linear_seekbar"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:background="#FFEF0404">
+
+        <TextView
+           android:id="@+id/remaining_songtime_left_text1"
+           android:layout_width="100dp"
+           android:layout_height="20dp"
+           android:text="00:00"
+            android:textColor="#FFFFFF"
+           android:gravity="center"
+            android:visibility="gone"/>
+
+        <TextView
+           android:id="@+id/total_song_time_text1"
+           android:layout_width="100dp"
+           android:layout_height="20dp"
+           android:text="00:00"
+           android:gravity="center"
+            android:textColor="#FFFFFF"
+           android:layout_marginLeft="170dp"
+            android:visibility="gone"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_below="@+id/linear_time"
+           android:orientation="horizontal"
+           android:background="#FFEF0404"
+            android:visibility="gone">
+
+        <TextView
+           android:id="@+id/text_songname"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+
+           android:layout_centerVertical="true"
+           android:layout_marginLeft="10dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone"
+            android:layout_marginEnd="10dp">
+            <ImageView
+                android:id="@+id/img_playmusic"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:background="@drawable/bars"
+                android:layout_gravity="center"
+                android:layout_marginEnd="10dp" />
+            <ImageView
+                android:id="@+id/img_pausemusic"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@drawable/play"
+                android:layout_marginEnd="10dp"
+                android:visibility="gone"  />
+
+            <ImageView
+                android:id="@+id/btnNext"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:src="@drawable/next1"/>
+
+        </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+        <!-- <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="New Text"
+             android:id="@+id/text_songname"
+             android:padding="5dp"
+             android:layout_below="@+id/textView2"
+             android:layout_alignStart="@+id/textView2" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text=""
+             android:id="@+id/textView2"
+             android:layout_marginStart="35dp"
+             android:layout_marginTop="10dp"
+             android:padding="5dp"
+             android:layout_centerVertical="true"
+             android:layout_alignParentStart="true" />
+
+         <ImageView
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:id="@+id/img_playmusic"
+             android:background="@drawable/bars"
+             android:layout_below="@+id/remaining_songtime_left_text1"
+             android:layout_alignParentEnd="true" />
+
+         <ImageView
+             android:layout_width="40dp"
+             android:layout_height="40dp"
+             android:id="@+id/img_pausemusic"
+             android:background="@drawable/play"
+             android:layout_centerVertical="true"
+             android:layout_alignParentEnd="true"
+             android:visibility="gone"/>
+
+         <SeekBar
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/seekBar"
+             android:indeterminate="false"
+             android:layout_below="@+id/img_pausemusic"
+             android:layout_alignParentStart="true" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="00:00"
+             android:id="@+id/remaining_songtime_left_text1"
+             android:layout_alignTop="@+id/textView2"
+             android:layout_alignStart="@+id/textView2" />
+
+         <TextView
+             android:layout_width="100dp"
+             android:layout_height="wrap_content"
+             android:text="00:00"
+
+             android:id="@+id/total_song_time_text1"
+             android:layout_toStartOf="@+id/img_playmusic"
+             android:layout_above="@+id/img_playmusic"
+             android:layout_alignTop="@+id/remaining_songtime_left_text1" />-->
+    </RelativeLayout>
+
+       <!-- <TextView
+        android:id="@+id/txt_EventName"
+
+          android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:gravity="center"
+        android:layout_marginTop="22dp"
+          android:text=" Geet Digital"
+
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+    <TextView
+        android:text="1/45, Lalita Park, Vikas Marg, Laxmi Nagar
+        "
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />-->
+    <!--<TextView-->
+        <!--android:text=" Next to Gurudwara, Opp Metro Pillar no 26-->
+        <!--"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="30dp" />-->
+
+    <!--<TextView
+        android:text="New Delhi 110092
+
+    "
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:text="Phone no:9810005126"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:text="http://www.geetdigital.com/"
+        android:gravity="center"
+        android:id="@+id/geet"
+        android:textColor="#fff"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:text="http://www.rachnamedia.com/"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:id="@+id/rachnamedia"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />-->
+    <!--<TextView-->
+        <!--android:text=" (100 meters from Laxmi Nagar Metro Station)"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_marginTop="2dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="32dp" />-->
+
+
+  <!--  <TextView
+        android:text="E-mail :geetdigital@gmail.com"
+        android:gravity="center"
+
+        android:textColor="#fff"
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+-->    <!--<TextView-->
+        <!--android:text="E-mail : info@rachnamedia.com "-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_marginTop="2dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="35dp" />-->
+
+    <!--<TextView-->
+    <!--android:text="  www.RachnaMedia.com "-->
+    <!--android:gravity="center"-->
+    <!--android:textColor="#fff"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="35dp" />-->
+    <!--<TextView-->
+        <!--android:text="  www.RachnaMedia.com"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="#fff"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp" />-->
+
+
+
+    <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:id="@+id/contact_name"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="150dp">-->
+            <!--<TextView-->
+                <!--android:id="@+id/txt_EventName"-->
+                <!--android:layout_gravity="center"-->
+<!--android:layout_marginTop="9dp"-->
+                <!--android:text="RACHNA AUDIO VISION-->
+
+<!--(New Studio Location)-->
+
+<!--1/45,  Lalita Park, Vikas Marg, Laxmi Nagar,-->
+
+<!--Next to Gurudwara, Opp Metro Pillar no 26-->
+
+<!--"-->
+
+                <!--android:layout_width="match_parent"-->
+                <!--android:textColor="#fff"-->
+                <!--android:gravity="center"-->
+                <!--android:autoText="true"-->
+                <!--android:layout_height="220dp"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/txt_EventName2"-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_marginTop="1dp"-->
+                <!--android:text="New Delhi 110092-->
+
+<!--(100 meters from Laxmi Nagar Metro Station)-->
+
+
+<!--E-mail : info@rachnamedia.com-->
+
+<!--Ph : 0-9810005126-->
+
+<!--www.RachnaMedia.com"-->
+                  <!--android:layout_width="match_parent"-->
+                <!--android:textColor="#fff"-->
+            <!--android:gravity="center"-->
+            <!--android:autoText="true"-->
+            <!--android:layout_height="100dp"/>-->
+
+
+        <!--</LinearLayout>-->
+
+<!--<LinearLayout-->
+    <!--android:orientation="vertical"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="80dp">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:textColor="#fff"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text=" E-mail : info@rachnamedia.com"-->
+            <!--android:layout_height="30dp" />-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:text="   www.RachnaMedia.com"-->
+            <!--android:textColor="#fff"-->
+            <!--android:gravity="center"-->
+
+            <!--android:layout_height="40dp" />-->
+          <!--</LinearLayout>-->
+
+
+
+
+
+
+    <!--</LinearLayout>-->
+
+
+
+    <!--<ListView android:id="@+id/detailes_list"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="400dp"-->
+    <!--/>-->
+
+</RelativeLayout>

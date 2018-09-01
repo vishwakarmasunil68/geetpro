@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+
+    tools:context="com.example.ashish.geetapp.MainActivity" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:background="@drawable/button_border3"
+        android:layout_width="match_parent"
+
+        android:layout_height="210dp" />
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/view_pager"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="160dp" >-->
+        <!--<ImageView-->
+            <!--android:id="@+id/image_page"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="150dp" />-->
+
+    <!--</android.support.v4.view.ViewPager>-->
+
+</RelativeLayout>

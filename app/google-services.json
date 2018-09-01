@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "883724561894",
+    "firebase_url": "https://geet-uttrakhand-pro.firebaseio.com",
+    "project_id": "geet-uttrakhand-pro",
+    "storage_bucket": "geet-uttrakhand-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883724561894:android:ab143a9481703a39",
+        "android_client_info": {
+          "package_name": "webuters.com.geet_uttarakhand20aprilpro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883724561894-0bj2cl9nut8k7da7l8pilpro5qseevf8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "webuters.com.geet_uttarakhand20aprilpro",
+            "certificate_hash": "728aad18cc8dd9985b09a679fb5c0c0b81a1ccc6"
+          }
+        },
+        {
+          "client_id": "883724561894-fc7ohrhl00ohnidsv5h5cma3ptsnttpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaCpTNTBy7R8jhzi3ULQaML7c_urjshTM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883724561894-fc7ohrhl00ohnidsv5h5cma3ptsnttpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

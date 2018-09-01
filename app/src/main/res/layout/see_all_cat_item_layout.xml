@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hindi"
+        android:id="@+id/singer_list_item_image"
+        />
+<TextView android:id="@+id/see_all_cat_txt"
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:layout_marginLeft="25dp"
+
+
+android:gravity="center_vertical"
+    android:textColor="#fff"
+    android:text="No data"
+    android:textSize="15sp"
+    />
+</LinearLayout>

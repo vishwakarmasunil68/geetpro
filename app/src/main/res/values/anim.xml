@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    Log_out
+
+
+    <!-- Menu names -->
+    <string name="voice_search">Voice Search</string>
+    <!-- Buttons -->
+    <!-- Menu items -->
+    <!-- Dialog -->
+    <!-- Toasts -->
+    <string name="center_click">Center has been clicked</string>
+
+</resources>

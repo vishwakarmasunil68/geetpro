@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="45dp">
+<!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+
+
+<!--<ImageView-->
+    <!--android:id="@+id/image_album"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="match_parent" />-->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="#FFAF0516"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="1dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hindi"
+            android:id="@+id/image_album_item_list"
+            />
+
+
+        <TextView android:id="@+id/album_title"
+            android:layout_width="match_parent"
+            android:textColor="#fff"
+            android:gravity=""
+            android:text="ljlkj"
+            android:textSize="16dp"
+            android:background="#FFAF0516"
+            android:layout_height="20dp"/>
+
+        <!--<TextView android:id="@+id/album_director"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:textColor="#009988"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:text="Test Text here"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_height="120dp"/>-->
+
+        <!--<TextView android:id="@+id/album_created_by"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:textColor="#009988"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="2dp"-->
+            <!--android:text="Test Text here"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_height="120dp"/>-->
+    <!--</LinearLayout>-->
+</LinearLayout>
+</LinearLayout>

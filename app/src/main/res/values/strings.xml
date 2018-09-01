@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Geet Pro</string>
+    <string name="action_settings">Settings</string>
+    <string name="local_service_started">okay there</string>
+    <string name="gcmsenderId">690349506201</string>
+    <string name="interestialadmobid">ca-app-pub-9490213572968303/8395669551</string>
+    <string name="google_licence_key">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqCKTh86/9mz68VxHcgo500uvltaIvk7WKeVcH1iUrQE2OowXszKZLueR9xJEHEg4xeMbcEUtRF+0h71E8OyLMlSBPJjNrkQX3cd1v8agaK9mMBRrdimxunXI5q5M2shA08P+Ui5RJXE5kSMYwtDYJKCVvppYjRZpH4681xCzZr/xTXWCkalGSnE/3IOtZDjvm1tWHN8eJhhOGUVx4edxfN+vLhVrsHfIiCFw8WjyEQ0q505uWoiTInEiGdYkgco6V7KSksuUA+cngDAE3qmmPzUe/5MDF9UM3O7uNDsyfNwriJR5+Ib9kupjHqTijUVJyV48kKFlzD39fVSCL0RlewIDAQAB</string>
+</resources>

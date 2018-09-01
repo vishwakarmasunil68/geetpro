@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#FFAF0516"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:height="60dp"
+            android:text="Albums"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:id="@+id/cat_name_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/etSearchh"
+            android:hint="Search"
+            android:textColorHint="#fff"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_height="60dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btnSearchh"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/search40"
+            android:layout_weight="1"
+            android:text=""/>
+    </LinearLayout>
+
+    <ListView
+        android:background="#FFC60811"
+        android:id="@+id/list_catagory"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:divider="#fff"
+        android:dividerHeight="1.0sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></ListView>
+
+
+</LinearLayout>

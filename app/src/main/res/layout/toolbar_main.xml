@@ -1,0 +1,96 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    app:contentInsetEnd="0dp"
+    android:visibility="visible"
+    app:contentInsetStart="0dp"
+    android:background="#FFAF0516"
+    android:minHeight="180dp">
+
+    <LinearLayout
+        android:background="#FFAF0516"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/toolbar_main"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:layout_width="30dp"
+            android:src="@drawable/main_menu_icon"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:height="60dp"
+            android:text="Geet Uttarakhand"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/edit_searchmain"
+            android:hint="Search"
+            android:textSize="22sp"
+            android:textColorHint="#fff"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_height="60dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_searchmain"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/search40"
+            android:layout_weight="1"
+            android:text=""/>
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginLeft="156dp"
+            android:layout_width="30dp"
+            android:src="@drawable/back_arrow"
+            android:layout_height="30dp" />
+
+    <!-- <TextView
+         android:id="@+id/toolbar_title"
+         android:layout_width="wrap_content"
+         android:text="Geet Uttarakhand"
+         android:gravity="center"
+         android:layout_marginTop="5dp"
+         android:textSize="21sp"
+         android:textColor="#fff"
+         android:layout_marginLeft="10dp"
+         android:layout_height="40dp" />
+     <ImageView
+         android:id="@+id/toolbar_main"
+         android:layout_gravity="center"
+         android:visibility="visible"
+         android:layout_marginLeft="156dp"
+         android:layout_width="30dp"
+         android:src="@drawable/main_menu_icon"
+         android:layout_height="30dp" />
+      <ImageView
+         android:id="@+id/back_arrow"
+         android:layout_gravity="center"
+         android:visibility="gone"
+         android:layout_marginLeft="156dp"
+         android:layout_width="30dp"
+         android:src="@drawable/back_arrow"
+         android:layout_height="30dp" />-->
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

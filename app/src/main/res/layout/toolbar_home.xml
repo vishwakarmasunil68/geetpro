@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar_home"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/ColorPrimary"
+    android:titleTextAppearance="@string/app_name"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+  <!--  <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/backbtn"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_arrow"/>-->
+
+    <TextView
+        android:text="Player"
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+</android.support.v7.widget.Toolbar>
+

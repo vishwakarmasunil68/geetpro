@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+
+
+    <color name="transparent">#00000000</color>
+    <color name="ColorPrimaryDark">#FFAF0516</color>
+    <color name="ColorPrimary">#FFAF0516</color>
+    <color name="ccolorAccent">#FFAF0516</color>
+    <color name="background_tab_pressed">#FFAF0516</color>
+    <color name="colorAccent">#FFAF0516</color>
+
+    <color name="text_connection_color">#FFAF0516</color>
+
+    <!-- selected tab text -->
+
+    <!-- non selected tab text -->
+
+
+    <!-- Black -->
+    <color name="black">#ff000000</color>
+
+    <!-- White -->
+</resources>
